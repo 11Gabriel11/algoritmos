@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(118, 95, 95, 0.404);
+    border: solid rgb(75, 7, 178) 1px;
+    border-radius: 10px;
+}
+
+menu h2{
+    color: rgb(102, 9, 130);
+
+}
+
+menu h2:hover{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+section{
+    color: rgb(86, 0, 160);
+    
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
